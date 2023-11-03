@@ -13,5 +13,6 @@ obs2: Vite eh um setup do react que é uma biblioteca do Nextjs, um framework qu
   - Ele executa o index.html onde nele só tem uma div chamada `root`
   - Nela é importada os elementos através do arquivp .jsx main
   - O main referencia o arquivo App.jsx que tem os elementos vistos na tela de exemplo do Vite.
-- 
+- Importante deixar os arquivos com os mesmos nomes das funções por questão de organização
+- Por padrão cada função retorna um unico elemento, por isso eh criado um fragment `<> </>` para a gente construir a página ali dentro
 
