@@ -31,3 +31,4 @@ Não tem uma seção para cada aula, só anoto aquilo que acho importante e sepa
   - mudo os arquivos .css para .js
   - instalar o vscode-styled-components
 
+5. 
