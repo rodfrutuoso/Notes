@@ -31,4 +31,7 @@ Não tem uma seção para cada aula, só anoto aquilo que acho importante e sepa
   - mudo os arquivos .css para .js
   - instalar o vscode-styled-components
 
-5. 
+5. Componentização
+  - Criada pasta de componentes 
+  - Cada componente tem um arquivo .jxs que é o arquivo react responsável por tranformar em função em exportar esse componentes
+  - Cada componente possui um arquivo .js que é o CSS daquele compoentes escrito em javascript
