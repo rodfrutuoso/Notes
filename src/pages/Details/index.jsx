@@ -7,9 +7,9 @@ export function Details() {
       <h1>opa</h1>
       <h2>teste</h2>
 
-      <Button/>
-      <Button/>
-      <Button/>
+      <Button title = "Entrar" loading/>
+      <Button title = "Cadastrar"/>
+      <Button title = "Voltar"/>
     </Container>
   )
 }
