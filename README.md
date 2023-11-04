@@ -35,3 +35,8 @@ Não tem uma seção para cada aula, só anoto aquilo que acho importante e sepa
   - Criada pasta de componentes 
   - Cada componente tem um arquivo .jxs que é o arquivo react responsável por tranformar em função em exportar esse componentes
   - Cada componente possui um arquivo .js que é o CSS daquele compoentes escrito em javascript
+
+6. React Icons
+  - Biblioteca que reune diversos icones em svg
+  - npm install react-icons --save
+  - [React Icons](https://react-icons.github.io/react-icons/)
