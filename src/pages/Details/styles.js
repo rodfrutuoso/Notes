@@ -9,6 +9,12 @@ export const Container = styled.div`
     grid-template-areas:
     "header"
     "content" ;
+
+    >main{
+        grid-area: content;
+        overflow-y: scroll;
+        padding: 64px 12px;
+    }
 `
 
 export const Links = styled.ul`
@@ -18,8 +24,33 @@ export const Links = styled.ul`
         margin-top: 12px;
 
         a{
-            color: ${({theme})=>theme.COLORS.WHITE};
+            color: ${({ theme }) => theme.COLORS.WHITE};
         }
     }
+`
+
+export const Content = styled.div`
+    max-width: 550px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    >button:first-child{
+        align-self: end;
+    }
+
+    >h1{
+        font-size: 36px;
+        font-weight: 500;
+        padding-top: 64px;
+    }
+
+    >p{
+        font-size: 16px;
+        margin-top: 16px;
+        text-align: justify;
+    }
+
 `
 
