@@ -15,10 +15,12 @@ grid-template-areas:
 
 background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
 `
+
 export const Brand = styled.div`
     grid-area: brand;
     background: black;
 `
+
 export const Menu = styled.ul`
     grid-area: menu;
     background: green;
@@ -30,11 +32,13 @@ export const Search = styled.div`
     background: red;
 
 `
+
 export const Content = styled.div`
     grid-area: content;
     background: blue;
 
 `
+
 export const NewNote = styled.button`
     grid-area: newnote;
     background: yellow;
