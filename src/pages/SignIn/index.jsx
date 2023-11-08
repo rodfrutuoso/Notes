@@ -11,12 +11,12 @@ export function SignIn() {
         <p>Aplicação para gerenciar e salvar notas e links</p>
         <h2>Faça seu Login</h2>
         <Input
-          Placeholder="E-mail"
+          placeholder="E-mail"
           type="text"
           icon={FiMail}
         />
         <Input
-          Placeholder="Senha"
+          placeholder="Senha"
           type="password"
           icon={FiLock}
         />
@@ -27,7 +27,7 @@ export function SignIn() {
         </a>
       </Form>
 
-      <Background/>
+      <Background alt="Background"/>
     </Container>
   );
 }
