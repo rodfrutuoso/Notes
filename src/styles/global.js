@@ -28,6 +28,6 @@ button, a {
 }
 
 button:hover, a:hover {
-    filter: brightness(0.8);
+    filter: brightness(0.9);
 }
 `
