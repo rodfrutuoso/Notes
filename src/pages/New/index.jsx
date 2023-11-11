@@ -2,11 +2,10 @@ import { Container, Form } from "./styles";
 import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
-import { Tag } from "../../components/Tag";
-import { ButtonText } from "../../components/ButtonText";
 import { Input } from "../../components/Input";
 import { Textarea } from "../../components/Textarea";
 import { Noteitem } from "../../components/Noteitem";
+import { Link } from "react-router-dom";
 
 
 export function New() {
@@ -17,7 +16,7 @@ export function New() {
         <Form>
           <header>
             <h1>Criar nota</h1>
-            <a href="/">voltar</a>
+            <Link to="/">voltar</Link>
           </header>
           <Input placeholder="Título" />
           <Textarea placeholder="Observações" />
