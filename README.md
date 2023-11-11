@@ -1,6 +1,7 @@
 # FrontendAlmox
 ## Vite - setup do projeto react
 1. Para instalar o Vite basta rodar npm create vite@latest (deve estar em letras minúsculas)
+  >npm create vite@latest
 2. selecionar react e dps javascript comum
 
 obs: Por ter o node_modules no git ignore ele não salva do git, já q eh só rodar npm install quando
@@ -27,7 +28,7 @@ Não tem uma seção para cada aula, só anoto aquilo que acho importante e sepa
   - Styled Components: Componetização dos estilos para aplicações React (Sem colisão de classes, melhor desempenho, estilos dinâmicos, fácil manutenção)
 
 4. Style Component
-  - para instalar npm install --save styled-components
+  - >npm install --save styled-components
   - mudo os arquivos .css para .js
   - instalar o vscode-styled-components
 
@@ -38,5 +39,12 @@ Não tem uma seção para cada aula, só anoto aquilo que acho importante e sepa
 
 6. React Icons
   - Biblioteca que reune diversos icones em svg
-  - npm install react-icons --save
+  - >npm install react-icons --save
   - [React Icons](https://react-icons.github.io/react-icons/)
+
+7. React Router Dom
+  - Biblioteca de auxilo de rotas
+  - >npm install react-router-dom
+  - Separar dois arquivos de routes
+    - App: rota para quando o usuário está logado
+    - Auth: rotas de autenticação para quando o usuário não estiver logado
