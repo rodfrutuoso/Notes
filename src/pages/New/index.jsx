@@ -6,6 +6,7 @@ import { Tag } from "../../components/Tag";
 import { ButtonText } from "../../components/ButtonText";
 import { Input } from "../../components/Input";
 import { Textarea } from "../../components/Textarea";
+import { Noteitem } from "../../components/Noteitem";
 
 
 export function New() {
@@ -20,7 +21,10 @@ export function New() {
           </header>
           <Input placeholder="Título"/>
           <Textarea placeholder="Observações"/>
-
+          <Section title="Links úteis">
+            <Noteitem value="https://github.com/rodfrutuoso"/>
+            <Noteitem isNew placeholder="Novo link"/>
+          </Section>
 
         </Form>
       </main>
