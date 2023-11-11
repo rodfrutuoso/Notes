@@ -1,4 +1,4 @@
-import { Container, Form} from "./styles";
+import { Container, Form } from "./styles";
 import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
@@ -19,16 +19,25 @@ export function New() {
             <h1>Criar nota</h1>
             <a href="/">voltar</a>
           </header>
-          <Input placeholder="Título"/>
-          <Textarea placeholder="Observações"/>
+          <Input placeholder="Título" />
+          <Textarea placeholder="Observações" />
           <Section title="Links úteis">
-            <Noteitem value="https://github.com/rodfrutuoso"/>
-            <Noteitem isNew placeholder="Novo link"/>
+            <Noteitem value="https://github.com/rodfrutuoso" />
+            <Noteitem isNew placeholder="Novo link" />
           </Section>
+
+          <Section title="Marcadores">
+            <div className="tags">
+            <Noteitem value="React" />
+            <Noteitem isNew placeholder="Nova tag" />
+            </div>
+          </Section>
+
+          <Button title="Salvar"/>
 
         </Form>
       </main>
-      
+
     </Container>
   )
 }
